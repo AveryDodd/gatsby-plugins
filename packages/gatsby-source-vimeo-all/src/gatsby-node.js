@@ -23,7 +23,7 @@ exports.sourceNodes = async (
     client.request(
       {
         method: 'GET',
-        path: '/me/videos?per_page=100' // /me/videos/{id}
+        path: '/me/projects/7466179/videos?per_page=100' // /me/videos/{id}
       },
       (error, body, status_code, headers) => {
         if (error) reject(error)
